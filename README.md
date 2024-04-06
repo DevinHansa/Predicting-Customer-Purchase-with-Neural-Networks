@@ -1,7 +1,7 @@
 # Predicting Customer Purchase with Neural Networks using AWS SageMaker
 
 ## Overview
-This project demonstrates the creation of a simple neural network within an AWS SageMaker environment to predict customer purchases based on two features: website visit duration and number of pages visited. It addresses a binary classification problem commonly encountered in business contexts.
+This project demonstrates the creation of a simple neural network within an AWS SageMaker environment to predict customer purchases based on two features: website visit duration and number of pages visited. This is a binary classification problem commonly encountered in business contexts.
 
 ## Step-by-Step Instructions
 
@@ -22,5 +22,12 @@ A simple neural network is constructed using TensorFlow's Sequential API. It com
 ### 5. Evaluate the Model
 The trained model is evaluated on the test set to assess its accuracy in predicting customer purchases.
 
+### Model Accuracy and Loss Visualization
+Model accuracy and loss are essential metrics to evaluate the performance of the neural network. Visualizing the training process can provide insights into how the model learns over epochs. You can plot the training and validation loss and accuracy to understand the model's performance.
+
+### Decision Boundary Visualization
+The decision boundary is a critical concept in understanding how the neural network categorizes data. For our example with two input features, we can visualize the decision boundary on a 2D plot. This boundary separates the data points into different classes based on the model's predictions.
+
 ## Conclusion
 This project showcases the utilization of AWS SageMaker for developing and training a basic neural network to address a common business problem. By predicting customer purchase behavior, businesses can gain valuable insights into customer preferences and improve decision-making processes.
+
